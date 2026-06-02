@@ -1,22 +1,22 @@
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import React from 'react'
-import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
+import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 
 export default function Navbar({ className }: { className?: string }) {
     const socials = [
         {
             link: "",
             label: "Linkden",
-            Icon: SiLinkedin,
+            Icon: FaLinkedin,
         }, {
             link: "",
             label: "GitHub",
-            Icon: SiGithub,
+            Icon: FaGithub,
         }, {
             link: "",
             label: "x",
-            Icon: SiX,
+            Icon: FaXTwitter,
         }
     ]
     return (
